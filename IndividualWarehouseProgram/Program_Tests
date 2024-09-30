@@ -1,0 +1,39 @@
+Script started on 2024-09-30 23:24:33+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="194" LINES="15"]
+[0;32m@mbilaldogar [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-mbilaldogar/IndividualWarehouseProgram [0;36m([1;31mmain[0;36m) [0m$ exitjava UserInterface[6Pc *.java
+[0;32m@mbilaldogar [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-mbilaldogar/IndividualWarehouseProgram [0;36m([1;31mmain[0;36m) [0m$ javac *.java[8Pexitjava UserInterface
+
+--- Warehouse Management System ---
+1. Add Client
+2. Display All Clients
+3. Exit
+Enter your choice: 1
+Enter client's name: Jo  John Doe
+Enter client's address: 123 Main Srt  treet
+Client added successfully.
+
+--- Warehouse Management System ---
+1. Add Client
+2. Display All Clients
+3. Exit
+Enter your choice: 1
+Enter client's name: Mar  y Jane  
+Enter client's address: 456 Elm Street
+Client added successfully.
+
+--- Warehouse Management System ---
+1. Add Client
+2. Display All Clients
+3. Exit
+Enter your choice: 2
+Client [ID: C1, Name: John Doe, Address: 123 Main Street]
+Client [ID: C2, Name: Mary Jane, Address: 456 Elm Street]
+
+--- Warehouse Management System ---
+1. Add Client
+2. Display All Clients
+3. Exit
+Enter your choice: 3
+[0;32m@mbilaldogar [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-mbilaldogar/IndividualWarehouseProgram [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-09-30 23:25:26+00:00 [COMMAND_EXIT_CODE="0"]
