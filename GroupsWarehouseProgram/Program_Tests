@@ -1,0 +1,190 @@
+Script started on 2024-09-30 20:59:41+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="144" LINES="15"]
+[0;32m@mbilaldogar [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-mbilaldogar/GroupsWarehouseProgram [0;36m([1;31mmain[0;36m) [0m$ javac *.java
+[0;32m@mbilaldogar [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-mbilaldogar/GroupsWarehouseProgram [0;36m([1;31mmain[0;36m) [0m$ java UserInterface
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 1
+Enter client's name: John Doe
+Enter client's address: 123 Main Street
+Client added successfully.
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 1
+Enter client's name: Mary Jane  
+Enter client's address: 456 Elm Street
+Client added successfully.
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 5
+Client [ID: C1, Name: John Doe, Address: 123 Main Street]
+Client [ID: C2, Name: Mary Jane, Address: 456 Elm Street]
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 2
+Enter product name: Laptop
+Enter product quantity: 3
+Enter product sale price: 500
+Product added successfully.
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 2
+Enter product name: Phone
+Enter product quantity: 5
+Enter product sale price: 200
+Product added successfully.
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 6
+Product [ID: P1, Name: Laptop, Quantity: 3, Sale Price: $500.0]
+Product [ID: P2, Name: Phone, Quantity: 5, Sale Price: $200.0]
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 3
+Enter Client's ID: C1
+You are in the system
+Enter Product's ID
+P1
+want to keep going? y/n
+y
+Enter Product's ID
+P2
+want to keep going? y/n
+n
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 7
+Enter Client's ID: 
+C1
+Wishlist for client John Doe: [Laptop, Phone]
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 4
+Enter Client's ID: C2
+Enter Products's ID: P1
+Enter product quantity: 2
+Order added successfully.
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 8
+Enter Client's ID: C2
+Order [ID: O1 Client ID: C2 Product ID: P1 Product Quantity: 2]
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 6
+Product [ID: P1, Name: Laptop, Quantity: 1, Sale Price: $500.0]
+Product [ID: P2, Name: Phone, Quantity: 5, Sale Price: $200.0]
+
+--- Warehouse Management System ---
+1. Add Client
+2. Add Product
+3. Add Product to Client's Wishlist
+4. Add Product to Client's Order
+5. Display All Clients
+6. Display All Products
+7. Display Client's Wishlist
+8. Display Order By Client ID
+9. Exit
+Enter your choice: 9
+[0;32m@mbilaldogar [0m➜ [1;34m/workspaces/warehouse-stage-i-implementation-mbilaldogar/GroupsWarehouseProgram [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-09-30 21:02:45+00:00 [COMMAND_EXIT_CODE="0"]
